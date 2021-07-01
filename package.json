@@ -1,0 +1,30 @@
+{
+  "name": "geoquizzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "geoquizzer.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "npx nodemon PhilmontWebMap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebrs/PhilmontScoutRanch_WebMap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebrs/PhilmontScoutRanch_WebMap/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
